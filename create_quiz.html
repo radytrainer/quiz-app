@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz</title>
+    <link rel="stylesheet" href="css/app.css">
+</head>
+<body>
+    <nav>
+        <a>PNC Quiz App</a>
+        <ul>
+            <li><a href="index.html" >Quiz</a></li>
+            <li class="active"><a href="create_quiz.html">Create</a></li>
+        </ul>
+    </nav>
+    <div class="container">
+        <div class="header-quiz">
+            <h1>Quiz Titile</h1>
+        </div>
+        <div class="add-quiz">
+            <input type="text" placeholder="add question" id="question">
+            <button id="add">Add</button>
+        </div>
+    </div>
+    <div class="container quest">
+        <p>Question</p>
+        <ol>
+            <li><input type="radio" value="html" name="question" >  <label for=""> HTML</label></li>
+            <li><input type="radio" value="xml" name="question"> <label for=""> XML</label></li> 
+            <li><input type="radio" value="json" name="question"> <label for=""> JSON</label></li>
+            <li><input type="radio" value="css" name="question"> <label for=""> CSS</label></li> 
+        </ol>
+    </div>
+    <div class="container quest">
+        <ol>
+            <li><input type="radio">  <label for=""> HTML</label></li>
+            <li><input type="radio">  <label for=""> HTML</label></li>
+            <li><input type="radio">  <label for=""> HTML</label></li>
+            <li><input type="radio">  <label for=""> HTML</label></li>
+        </ol>
+    </div>
+</body>
+<script src="js/app.js"></script>
+</html>
